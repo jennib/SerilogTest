@@ -1,6 +1,6 @@
 # SerilogTest
 
-Very basic WPF app to test out using Serilog
+Very basic WPF app to test Serilog for logging from the program.  This uses the fantastic Serilog porject https://serilog.net/
 
 In MainWindows I added a Logger parameter:  public MainWindow(ILogger logger)
 
@@ -12,5 +12,5 @@ From NuGet I installed
 - Serilog.Sinks.File (for logging to a file)
 - Serilog.Formatting.Compact (for optionally logging JSON to the file)
 
-This uses the fantastic Serilog porject https://serilog.net/
+This is not the official way that Serilog suggest you do this, it is just what worked for me.
 
